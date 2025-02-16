@@ -20,8 +20,15 @@ export const HeroSection = () => {
         <div className="size-[820px] hero-ring"></div>
         <div className="size-[1020px] hero-ring"></div>
         <div className="size-[1220px] hero-ring"></div>
-        
-        <HeroOrbit size={430} rotation={-14} shouldOrbit orbitDuration="30s" shouldSpin spinDuration="6s">
+
+        <HeroOrbit
+          size={430}
+          rotation={-14}
+          shouldOrbit
+          orbitDuration="30s"
+          shouldSpin
+          spinDuration="6s"
+        >
           <SparkleIcon className="size-8 text-emerald-300/20" />
         </HeroOrbit>
         <HeroOrbit size={440} rotation={79} shouldOrbit orbitDuration="32s">
@@ -33,10 +40,24 @@ export const HeroSection = () => {
         <HeroOrbit size={530} rotation={178} shouldOrbit orbitDuration="36s">
           <SparkleIcon className="size-10 text-emerald-300/20" />
         </HeroOrbit>
-        <HeroOrbit size={550} rotation={20} shouldOrbit orbitDuration="38s" shouldSpin spinDuration="6s">
+        <HeroOrbit
+          size={550}
+          rotation={20}
+          shouldOrbit
+          orbitDuration="38s"
+          shouldSpin
+          spinDuration="6s"
+        >
           <StarIcon className="size-12 text-emerald-300" />
         </HeroOrbit>
-        <HeroOrbit size={590} rotation={98} shouldOrbit orbitDuration="40s" shouldSpin spinDuration="6s">
+        <HeroOrbit
+          size={590}
+          rotation={98}
+          shouldOrbit
+          orbitDuration="40s"
+          shouldSpin
+          spinDuration="6s"
+        >
           <StarIcon className="size-8 text-emerald-300" />
         </HeroOrbit>
         <HeroOrbit size={650} rotation={-10} shouldOrbit orbitDuration="42s">
@@ -48,7 +69,14 @@ export const HeroSection = () => {
         <HeroOrbit size={720} rotation={88} shouldOrbit orbitDuration="46s">
           <div className="size-3 bg-emerald-300/20 rounded-full" />
         </HeroOrbit>
-        <HeroOrbit size={800} rotation={-72} shouldOrbit orbitDuration="48s" shouldSpin spinDuration="6s">
+        <HeroOrbit
+          size={800}
+          rotation={-72}
+          shouldOrbit
+          orbitDuration="48s"
+          shouldSpin
+          spinDuration="6s"
+        >
           <StarIcon className="size-28 text-emerald-300" />
         </HeroOrbit>
       </div>
@@ -70,11 +98,11 @@ export const HeroSection = () => {
         </div>
         <div className="max-w-lg mx-auto">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Exceptional User Experiences
+            Portfolio von Ardeschir Chizari
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
-            adipisci accusantium sint sed explicabo.
+            Ich bin Ardeschir Chizari, Medieninformatik Student mit Leidenschaft
+            für digitale Medien und kreative Technologien.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">

@@ -110,7 +110,7 @@ export const AboutSection = () => {
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
               <CardHeader
                 title="My Toolbox"
-                description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+                description="Meine Tools womit ich arbeite"
                 className=""
               />
               <ToolBoxItems items={toolboxItems} classname="" />
@@ -125,7 +125,7 @@ export const AboutSection = () => {
             <Card className="h-[320px] p-0 flex flex-col col-span-3 lg:col-span-2">
               <CardHeader
                 title="Beyond the code"
-                description="Lorem ipsum dolor sit, amet consectetur adipisicing elit."
+                description="Meine Hobbys"
                 className="px-6 py-6"
               />
               <div className="relative flex-1">

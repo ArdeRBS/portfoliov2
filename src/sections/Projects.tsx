@@ -10,39 +10,39 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Chizari",
+    year: "2025",
+    title: "Hangman in Java",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "In Java geschrieben" },
+      { title: "#" },
+      { title: "#" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
+    link: "https://github.com/ArdeRBS/Hangman",
     image: darkSaasLandingPage,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Chizari",
+    year: "2025",
+    title: "Alarm Clock",
     results: [
-      { title: "Boosted sales by 20%" },
+      { title: "In Java geschrieben" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
+    link: "https://github.com/ArdeRBS/Alarm-Clock",
     image: lightSaasLandingPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Chizari",
+    year: "2025",
+    title: "Sultan Market",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://github.com/ArdeRBS/Sultan-Market",
     image: aiStartupLandingPage,
   },
 ];
@@ -53,8 +53,8 @@ export const ProjectsSection = () => {
       <div className="container">
         <SectionHeader
           eyebrow="Real-World Results"
-          title="Featured Projects"
-          description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,"
+          title="Projekte"
+          description="Meine Projekte verbinden Design und Technologie – von interaktiven Anwendungen bis hin zu kreativen Multimedia-Lösungen."
         />
         <div className="mt-10 md:mt-20 flex flex-col gap-20">
           {portfolioProjects.map((project, projectIndex) => (
@@ -62,7 +62,7 @@ export const ProjectsSection = () => {
               key={project.title}
               className=" px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
               style={{
-                top: `calc(64px + ${projectIndex * 40}px`
+                top: `calc(64px + ${projectIndex * 40}px`,
               }}
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
