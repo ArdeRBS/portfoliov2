@@ -1,6 +1,6 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import hangmanImage from "@/assets/images/hang-man-image.png";
+import alarmClockImage from "@/assets/images/alarm-clock-image.png";
+import sultanMarket from "@/assets/images/sultan-market-image.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -14,36 +14,36 @@ const portfolioProjects = [
     year: "2025",
     title: "Hangman in Java",
     results: [
-      { title: "In Java geschrieben" },
-      { title: "#" },
-      { title: "#" },
+      { title: "written in Java" },
+      { title: "playable in Terminal" },
+      { title: "only 10 words added" },
     ],
     link: "https://github.com/ArdeRBS/Hangman",
-    image: darkSaasLandingPage,
+    image: hangmanImage,
   },
   {
     company: "Chizari",
     year: "2025",
     title: "Alarm Clock",
     results: [
-      { title: "In Java geschrieben" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "written in Java" },
+      { title: "viewable only in Terminal" },
+      { title: "*" },
     ],
     link: "https://github.com/ArdeRBS/Alarm-Clock",
-    image: lightSaasLandingPage,
+    image: alarmClockImage,
   },
   {
     company: "Chizari",
     year: "2025",
     title: "Sultan Market",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "#" },
+      { title: "#" },
+      { title: "#" },
     ],
-    link: "https://github.com/ArdeRBS/Sultan-Market",
-    image: aiStartupLandingPage,
+    link: "https://aachizari.github.io/sultanMarketWeb/",
+    image: sultanMarket,
   },
 ];
 
@@ -68,7 +68,7 @@ export const ProjectsSection = () => {
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   <div
-                    className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex 
+                    className="bg-gradient-to-r from-violet-300 to-sky-400 inline-flex 
                 gap-2 font-bold uppercase 
                 tracking-widest text-sm text-transparent bg-clip-text"
                   >
@@ -91,7 +91,7 @@ export const ProjectsSection = () => {
                   </ul>
                   <a href={project.link}>
                     <button className="bg-white text-gray-950 h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8">
-                      <span>Visit Live Site</span>
+                      <span>Visit Project Site</span>
                       <ArrowUpRightIcon className="size-4" />
                     </button>
                   </a>
