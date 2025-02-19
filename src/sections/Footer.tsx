@@ -6,7 +6,7 @@ const footerLinks = [
     href: "#",
   },
   {
-    title: "Twitter",
+    title: "X",
     href: "#",
   },
   {
