@@ -61,4 +61,3 @@ export const HeroOrbit = ({
   );
 };
 
-// minute 56:09 weiter machen https://youtu.be/ELssXP1sTC8?si=eMTBW5sKCNCd2eXg&t=3369

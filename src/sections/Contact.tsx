@@ -18,8 +18,9 @@ export const ContactSection = () => {
                 Let's create something amazing together
               </h2>
               <p className="text-sm md:text-base mt-2">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Laboriosam earum quaerat, labore possimus quidem esse
+                Haben Sie eine spannende Projektidee? Ich freue mich darauf, 
+                gemeinsam mit Ihnen innovative Lösungen zu entwickeln und 
+                Ihre Vision Realität werden zu lassen.
               </p>
             </div>
             <div>
